@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.TopParent{
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.child{
+    width: 350px;
+    background-color: white;
+    margin: 25px;
+    padding: 20px;
+}
+.One_top{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    margin: 7px;
+}
+.One_middle{
+    font-weight: 700;
+    margin: 7px;
+}
+.One_last{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;
+}
+.fa-star{
+    color: green;
+}
